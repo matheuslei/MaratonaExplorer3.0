@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Dancing+Script:wght@400;700&family=Open+Sans:wght@400;700&family=Poppins:wght@100;200;300;600&family=Roboto+Mono&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>RocketCoffee</title>
+  </head>
+  <body>
+    <div class="login">
+      <div class="topo"></div>
+      <div class="cliente">
+        <div class="boxTop">
+          <h1>Rocket<span class="top">Coffee</span></h1>
+          <img src="./img/cafe-removebg-preview.png" alt="cafe" />
+        </div>
+        <input id="inputUsuario" placeholder="Entre com seu nome" type="text" />
+        <button onclick="loginUsuario()">Entrar</button>
+      </div>
+    </div>
+
+    <div class="fundo escondido">
+      <div class="container">
+        <header>
+          <div class="box">
+            <h1>Rocket<span>Coffee</span></h1>
+            <img src="./img/cafe-removebg-preview.png" alt="cafe" />
+          </div>
+          <p>Aberto todos os dias. <strong>8h-21h</strong></p>
+          <p class="paragrafo">
+            <span class="decoracao">Cliente:</span>
+            <span class="nomeCliente">Rafael Simas</span>
+          </p>
+        </header>
+
+        <section>
+          <h2>Branch</h2>
+          <ul>
+            <li>
+              <div class="details">
+                <h3>Waffle Doce</h3>
+                <p class="description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Totam,
+                </p>
+              </div>
+
+              <strong class="price"> R$37.70 </strong>
+            </li>
+            <li>
+              <div class="details">
+                <h3>Maçã Doce</h3>
+                <p class="description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Totam,
+                </p>
+              </div>
+              <strong class="price"> R$27.30 </strong>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Bebidas</h2>
+          <ul>
+            <li>
+              <div class="details">
+                <h3>Vinho</h3>
+                <p class="description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Totam,
+                </p>
+              </div>
+
+              <strong class="price"> R$37.70 </strong>
+            </li>
+            <li>
+              <div class="details">
+                <h3>Água com gás</h3>
+                <p class="description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Totam,
+                </p>
+              </div>
+              <strong class="price"> R$27.30 </strong>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
